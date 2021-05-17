@@ -12,7 +12,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-app.get('/location', (req, res) => {
+app.get('/api/location', (req, res) => {
   const queryParams = {
     q: req.query.postCode,
     state: req.query.state,
