@@ -32,7 +32,7 @@ app.get('/location', (req, res) => {
   axios
     .get(strUrl, {
       headers: {
-        'AUTH-KEY': '872608e3-4530-4c6a-a369-052accb03ca8',
+        'AUTH-KEY': req.get('auth-key'),
       },
     })
     .then((resp) => {
