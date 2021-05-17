@@ -2,6 +2,8 @@
 
 ### Run Application
 
+`npm install`
+
 `npm start`
 
 ### Requirements
