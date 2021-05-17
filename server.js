@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 
-//allowing cross site requests
+//allowing cross site requests to work
 const cors = require('cors');
 
 const app = express();
